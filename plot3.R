@@ -14,7 +14,7 @@ plot(data$date_time, data$Sub_metering_1,
      col = "black", 
      type = "l", 
      xlab = "", 
-     ylab = "energy sub-metering")
+     ylab = "Energy sub-metering")
 
 lines(data$date_time, data$Sub_metering_2, col = "red")
 lines(data$date_time, data$Sub_metering_3, col = "blue")

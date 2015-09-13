@@ -9,10 +9,10 @@ library(lubridate)
 data$date_time <- dmy_hms(paste(data$Date, " ", data$Time))
 
 png("plot2.png")
-plot(data$date_time, data$Sub_metering_1, 
+plot(data$date_time, data$Global_active_power, 
      type = "l", 
      xlab = "", 
-     ylab = "energy sub-metering")
+     ylab = "Global Active Pwer (kilowatts)")
 
 
 
